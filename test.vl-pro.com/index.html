@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <button class="button button_red popup-link">Кликни</button>
+    </main>
+    <div class="popup" id="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="" class="popup__close close-popup"><img src="/img/cross.png" alt="Закрыть форму"></a>
+                <div class="popup__title">
+                    <h2 class="popup__title_h2">
+                        Получите набор файлов для руководителя:
+                    </h2>
+                </div>
+                <div class="popup__form">
+                    <form action="sendmail.php" method="POST" id="form" class="form">
+                        <div class="form__item">
+                            <label for="formEmail" class="form__label">
+                                Введите e-mail для получения файлов:
+                            </label>
+                            <input type="text" name="email" id="formEmail" class="form__input" placeholder="E-mail">
+                        </div>
+                        <div class="form__item">
+                            <label for="formPhone" class="form__label">
+                                Введите телефон для подтверждения доступа:
+                            </label>
+                            <input type="tel" name="phone" id="formPhone" class="form__input phone _req"
+                                placeholder="+7 (000) 000-00-00">
+                        </div>
+                        <button type="submit" class="form__button">Скачать файлы</button>
+                        <div class="form__docs-format">
+                            <span class="form__docs-format-item">PDF 4,7 MB</span>
+                            <span class="form__docs-format-item">DOC 0,8 MB</span>
+                            <span class="form__docs-format-item">XLS 1,2 MB</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script defer src="js/popup.js"></script>
+    <script defer src="js/mask.js"></script>
+    <script defer src="js/form.js"></script>
+</body>
+
+</html>

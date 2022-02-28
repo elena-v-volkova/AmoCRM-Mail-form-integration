@@ -1,0 +1,8 @@
+<?php
+    $subdomain     = 'fedorovainga84'; // поддомен AmoCRM
+    $client_secret = 'CYu3WqwlN2W5maBp4dKLvA968IjjoRJ6GUja9MebdweoZc9xnKKYUviwVk8wv0kQ'; // Секретный ключ
+    $client_id     = '623fd77c-827c-406b-8d1e-adeba940a144'; // ID интеграции
+    $code          = 'def5020009471157c37b054ab9cfa7ba2c7405b22706a50be636807695da23131df405ce4afe104db025ed92eee0ba9f09ee1f708f214d50bc786a2da746f8a108a96727ee9b183254350156081fcb8111e9a9d001aa1e3e683c4883861c752c316a33d640eeb12b79adec4595722fea67ca256dae3b07cb9c6d1d4430d571b9819fc4c453e2adc735ea01a64731a34e05c281615891f2d887775f48a2ac99ac70a3d37ce2eb813838cfcd506a7e240dc589e65948e479780437cc269dcc7e8b702bea73e2d78fd4f06d86eb8802b79b3e61082ab8e0357692c2b429cb35a83ac9e2bd05112344e5bc8657d3bd2656eda3188a638d5194ecbfb916808d03052ce47f3f9c453fa648e469afe80ca14db46dae4db0ed142a152490fbb78eabf4d9b9e2f96b5df6db9cf97ddd1ed2a1bb35a13ae0dd6aa29433cb57d58d8a1de1c776dd3487bef4ee3681d8ace0999579d2bc1e0cadac0508f92b9e4483057c8cfc94072c6cd56390007b663df438af49b636582650bcc225b37d7f6e4c6fecb05d16086864f0dae4e445d511502fac7d1cc3e092bc60a9f162ea6ee3da4de280780b29caff44d2d26c075bf3218da95f74074f692b0da99824910ceede96f2a20963'; // Код авторизации
+    $token_file    = 'tokens.txt';
+    $redirect_uri  = 'https://test.vl-pro.com';
+                      
